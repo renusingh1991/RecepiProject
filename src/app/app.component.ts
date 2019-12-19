@@ -12,13 +12,6 @@ export class AppComponent {
   OnNavigate(selectedFeature:string)
   {
     this.loadedfeathure= selectedFeature;
-      if(selectedFeature=='recipe')
-      {
-         this.loadedfeathure= selectedFeature;
-      }
-      else{ 
-        this.loadedfeathure=selectedFeature;
-      }
      
   }
   ngOnInt()
